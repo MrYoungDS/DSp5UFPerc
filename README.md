@@ -189,4 +189,9 @@ and `java.lang`.
 Create your own percolation input file and share it with the class.
 For some inspiration, do an image search for “nonogram puzzles solved.”
 
-
+## Tips
+1. Do not write your own union-find data structure. Use `WeightedUnionQuickUnionUF` instead.
+2. It is ok to use an extra row and/or column to deal with the 1-based indexing of the percolation grid.
+3. Each of the methods in `Percolation` must use a constant number of union-find operations.
+4. You need to map the 2D coordinate pair to a 1D union-find object index.
+5. Consider using a private method for validating indices.
