@@ -115,7 +115,7 @@ public class PercolationTest {
 
     @Test
     public void testPercolates() {
-        File folder = new File("src/test/resources");
+        File folder = new File(INPUT_PATH);
         for (File file : folder.listFiles()) {
             // check that it's a valid txt file
             if (file.isFile() &&
