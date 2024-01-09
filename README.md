@@ -1,3 +1,6 @@
+# `DSp5UFPerc`
+# Coursera Week 1 Percolation Project
+
 ## Assignment Specification
 http://coursera.cs.princeton.edu/algs4/assignments/percolation.html
 
@@ -85,7 +88,7 @@ prescribed range. Throw an `IllegalArgumentException` in the constructor
 if *n* ≤ 0.
 
 ### Performance Requirements
-The constructor must take time proportional to *n^2*; all instance methods
+The constructor must take time proportional to *n<sup>2</sup>*; all instance methods
 must take constant time plus a constant number of calls to `union()` and `find()`.
 
 ## Monte Carlo Simulation
@@ -195,3 +198,10 @@ For some inspiration, do an image search for “nonogram puzzles solved.”
 3. Each of the methods in `Percolation` must use a constant number of union-find operations.
 4. You need to map the 2D coordinate pair to a 1D union-find object index.
 5. Consider using a private method for validating indices.
+
+## Implementation Reminder
+This is mostly for Mr Young, but maybe it will help you as well. To get the whole kit and kaboodle
+working, you need to have the following line in the `build.gradle` file.
+
+`implementation fileTree(dir: 'libs', include: '*.jar')`
+

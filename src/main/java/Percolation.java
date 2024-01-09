@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.WeightedQuickUnionUF;
+
 /******************************************************************************
  *  Name:    Kevin Wayne
  *  Dependencies: StdIn.java StdRandom.java WeightedQuickUnionUF.java
